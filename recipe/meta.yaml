@@ -1,5 +1,5 @@
 {% set name = "pymaxspots" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymaxspots-{{ version }}.tar.gz
-  sha256: 39e58255875bc85134d77e76de3e5e7d1f636a63e6ce39cd9afa81730e892614
+  sha256: 96438f617d70da4e270da902c07315b7f2c0f2c13d7dabc371791a81af4932c3
 
 build:
   noarch: python
